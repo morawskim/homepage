@@ -12,5 +12,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    $cvContent = file_get_contents(realpath(resource_path() . '/md/cv.md'));
+    $parsedown = new Parsedown();
+    return view('cv', ['content' => $parsedown->parse($cvContent)]);
 });

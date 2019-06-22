@@ -1,0 +1,165 @@
+# Marcin Morawski
+Email: 	[marcin@morawskim.pl](mailto:marcin@morawskim.pl)
+
+Github: [morawskim](https://github.com/morawskim)
+
+Website: [morawskim.pl](http://morawskim.pl)
+
+Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
+
+
+## Education
+2009-2013 Szkoła Wyższa im. Pawła Włodkowica w Płocku
+Engineer (Eng), Programming and computer networks
+
+
+## Sensilabs 02.2016 – now
+_Developer_
+
+Projects:
+
+* Analysis of mobile users' behavior through wi-fi networks
+* Developing and maintaining systems for investment funds
+* Mobile and web applications for mobile atm and vault services. Allows to order mobile service using mobile device, informs about progress. Backend selects best vehicle to handle task automatically and keeps all routes optimal throughout a day.
+* Portals (frontend and backend) with automotive advertisements
+* Mobile application and server backend for country wide transportation services monitoring and optimization.
+* Online/offline working application for storing various scientific data, embedded synchronization module for syncing nodes. Highly flexible data structure, content types. Includes visual representation of relations
+* Frontend and backend services to manage and coordinate online booking operations for Poland’s taxi services
+
+Key tasks:
+
+* Working with databases up to 2 600 GB (PostgreSQL). Every day up to 1 milion new records.
+* Optimization of SQL queries (PostgreSQL/MySQL) up to 80%
+* Creating SQL (PostgreSQL/MySQL) queries and presenting data in the form of a report
+* Work on projects in the Scrum methodology. Cooperation with teams (4 - 10 people)
+* Maintaining legacy systems - adding new features and fixing existings bugs
+* Designing new architecture or improve existing.
+* Work with systems with up to 500 000 lines of code (up to 1,8 million with external libraries)
+* Applying design patterns (Builder, Chain of Responsibility, Factory, Compositor, Null Object, Strategy)
+* unit tests (PHPUnit/PHPSpec) and integration tests (Postman/newman)
+* frontend: AngularJS, Angular6, Bootstrap, jQuery
+* Building German workers for parallel and asynchronous task processing
+* Optimization of generating reports in terms of used RAM (from more than 512 MB to max 90 MB)
+
+
+## eo Networks 07.2012 – 01.2016
+_Developer_
+
+Projects:
+
+* Developing a system to improve the legislative work
+* A B2B system that automates the processes necessary to provide IT services
+
+Key tasks:
+
+* Customization the LimeSurvey survey system to the client's needs
+* Co-creating a SPA application using the ExtJS framework
+* Integration with external system (SOAP and REST)
+* AngularJS, jQuery and Bootstrap
+* Integration with Active Directory / OpenLDAP
+* Maintenance and developing software in ZF1 and Yii2
+
+## Autentika 06.2011 – 03.2012
+_Developer PHP_
+
+Key tasks:
+
+* Creating websites and applications in PHP5 and ZF1
+* Using jQuery
+* Using MongoDB and MySQL
+* Using Sphinx Search to build search engines on the websites
+* Integration with web services (eg. vimeo, mail chimp, payment system)
+
+## Open source
+
+### SSorder
+A web application created after hours as an opensource project. It is used to order and settle meals for SensiLabs employees. "Sandbox" for introducing new technological solutions.
+
+* integration with Google Analytics Events. Sending information about the occurrence of a selected event, e.g. a new order
+* Integration with the Rocket.Chat system (sending notifications to the channel)
+* Rocket.Chat bot that responds to user commands (webhooks)
+* Integration of the npm symfony/encore package to build css/js with yii2 assets
+* Unit tests and e2e tests
+* CI/CD pipeline
+* JSON REST API (JWT Token, postman/newman tests)
+
+### Patches
+
+[yii2-ga-measurement-protocol](https://github.com/baibaratsky/yii2-ga-measurement-protocol/pull/7)
+
+[bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput/pull/1129)
+
+[climate](https://github.com/adtac/climate/pull/28)
+
+[faker-cli](https://github.com/bit3archive/faker-cli/pull/8)
+
+[faker-cli](https://github.com/bit3archive/faker-cli/pull/9)
+
+[zurb-foundation5-multiselect](https://github.com/icyz/zurb-foundation5-multiselect/pull/26)
+
+[simple-file-manager](https://github.com/jcampbell1/simple-file-manager/pull/29)
+
+[puppet-composer](https://github.com/tPl0ch/puppet-composer/pull/94)
+
+[puppet-gitconfig](https://github.com/mjanser/puppet-gitconfig/pull/1)
+
+[ZF1](https://devzone.zend.com/1814/zend-framework-1110-final-released/)
+
+### Other projects
+
+[yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
+
+[noip client](https://github.com/morawskim/noip-client)
+
+[ovh domain](https://github.com/morawskim/ovh-domain)
+
+[mail2print](https://github.com/morawskim/mail2print)
+
+[composer packages:](https://packagist.org/packages/mmo/)
+
+[vagrant boxes](https://app.vagrantup.com/morawskim)
+
+[docker images](https://hub.docker.com/u/morawskim)
+
+
+## Technology
+
+* PHP 5/7 (very good)
+* ZF1/Yii2 (very good)
+* JavaScript (very good)
+* jQuery (very good)
+* HTML/CSS/Bootstrap (very good)
+* Angular/AngularJS (good)
+* TypeScript (good)
+* MySQL (good)
+* PostgreSQL (medium)
+* Symfony 4 (medium)
+
+## Skills
+
+* CI/CD pipelines (GitLab CI/CD)
+* Code review
+* Creating REST/SOAP APIs, as well integration with systems via REST/SOAP protocol
+* Creating unit/integration/e2e tests
+* Creating development environments based on docker containers
+* Creating vagrant images with the development environment
+* Software configuration management via puppet
+* Solving problems that affect different technologies (Java, SELinux, Linux, network)
+* Code debugging (xdebug, chrome devtools), tracing code execution and profiling
+* Clean code, Design patterns, SOLID, TDD
+* OWASP TOP 10
+* Git/SVN, Git-flow
+
+## Languages
+Polish - native
+
+English - B1
+
+Reading technical documentation in English  - B2
+
+## Certifications
+2014 - [Zend Certified PHP Engineer](http://www.zend.com/en/yellow-pages/ZEND024961)
+
+2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)
+
+2014 - SUSE Certified Linux Administrator  (SUSE CLA)
