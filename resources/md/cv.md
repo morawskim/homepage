@@ -126,7 +126,7 @@ A web application created after hours as an opensource project. It is used to or
 
 * PHP 5/7 (very good)
 * ZF1/Yii2 (very good)
-* JavaScript (very good)
+* JavaScript ES6+ (very good)
 * jQuery (very good)
 * HTML/CSS/Bootstrap (very good)
 * Angular/AngularJS (good)
