@@ -47,15 +47,19 @@ _Developer_
 
 Projects:
 
+* Offer comparison platform (TV, phones, loans, internet)
 * Developing a system to improve the legislative work
+* Creating a CLI application in C# which use the Enova ERP API and integrating it with PHP
 * A B2B system that automates the processes necessary to provide IT services
 
 Key tasks:
 
+* Developing a flexible (generalized) calculator architecture for different types of products
 * Customization the LimeSurvey survey system to the client's needs
 * Co-creating a SPA application using the ExtJS framework
 * Integration with external system (SOAP and REST)
 * AngularJS, jQuery and Bootstrap
+* Finding performance bottlenecks and optimizing CMS Drupal
 * Integration with Active Directory / OpenLDAP
 * Maintenance and developing software in ZF1 and Yii2
 
@@ -128,7 +132,7 @@ A web application created after hours as an opensource project. It is used to or
 * ZF1/Yii2 (very good)
 * JavaScript ES6+ (very good)
 * jQuery (very good)
-* HTML/CSS/Bootstrap (very good)
+* HTML/CSS/SCSS/Bootstrap (very good)
 * Angular/AngularJS (good)
 * TypeScript (good)
 * MySQL (good)
@@ -146,7 +150,7 @@ A web application created after hours as an opensource project. It is used to or
 * Software configuration management via puppet
 * Solving problems that affect different technologies (Java, SELinux, Linux, network)
 * Code debugging (xdebug, chrome devtools), tracing code execution and profiling
-* Clean code, Design patterns, SOLID, TDD
+* Clean code, Design patterns, SOLID, TDD, Refactoring
 * OWASP TOP 10
 * Git/SVN, Git-flow
 
