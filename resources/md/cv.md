@@ -77,7 +77,7 @@ Key tasks:
 ## Open source
 
 ### SSorder
-A web application created after hours as an opensource project. It is used to order and settle meals for SensiLabs employees. "Sandbox" for introducing new technological solutions.
+A web application created by intern. Currently develop after hours as an opensource project. It is used to order and settle meals for employees. "Sandbox" for introducing new technological solutions.
 
 * integration with Google Analytics Events. Sending information about the occurrence of a selected event, e.g. a new order
 * Integration with the Rocket.Chat system (sending notifications to the channel)
@@ -86,6 +86,7 @@ A web application created after hours as an opensource project. It is used to or
 * Unit tests and e2e tests
 * CI/CD pipeline
 * JSON REST API (JWT Token, postman/newman tests)
+* Pair programming
 
 ### Patches
 
@@ -119,6 +120,8 @@ A web application created after hours as an opensource project. It is used to or
 
 [mail2print](https://github.com/morawskim/mail2print)
 
+[packpub-free-learning bot](https://github.com/morawskim/packpub-free-learning)
+
 [composer packages:](https://packagist.org/packages/mmo/)
 
 [vagrant boxes](https://app.vagrantup.com/morawskim)
@@ -136,6 +139,7 @@ A web application created after hours as an opensource project. It is used to or
 * Angular/AngularJS (good)
 * TypeScript (good)
 * MySQL (good)
+* Docker, Gitlab CI/CD, Packer (good)
 * PostgreSQL (medium)
 * Symfony 4 (medium)
 
