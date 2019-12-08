@@ -7,6 +7,8 @@ Website: [morawskim.pl](http://morawskim.pl)
 
 Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 
+[LinkedIn](https://www.linkedin.com/in/marcin-morawski-015924199)
+
 
 ## Education
 2009-2013 Szkoła Wyższa im. Pawła Włodkowica w Płocku
