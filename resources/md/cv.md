@@ -20,7 +20,7 @@ _Developer_
 
 Projects:
 
-* Analysis of mobile users' behavior through wi-fi networks
+* Analysis of mobile users' behavior through wi-fi networks. Analytics panel for shops and shopping mall presenting visits, unique users and new/returning customers. Map with estimate location of user home. Calculations for the movement of customers between brands.
 * Developing and maintaining systems for investment funds
 * Mobile and web applications for mobile atm and vault services. Allows to order mobile service using mobile device, informs about progress. Backend selects best vehicle to handle task automatically and keeps all routes optimal throughout a day.
 * Portals (frontend and backend) with automotive advertisements
@@ -30,7 +30,7 @@ Projects:
 
 Key tasks:
 
-* Working with databases up to 2 600 GB (PostgreSQL). Every day up to 1 milion new records.
+* Working with databases up to 2 600 GB (PostgreSQL). Every day up to 2 millions new records.
 * Optimization of SQL queries (PostgreSQL/MySQL) up to 80%
 * Creating SQL (PostgreSQL/MySQL) queries and presenting data in the form of a report
 * Work on projects in the Scrum methodology. Cooperation with teams (4 - 10 people)
@@ -39,8 +39,7 @@ Key tasks:
 * Work with systems with up to 500 000 lines of code (up to 1,8 million with external libraries)
 * Applying design patterns (Builder, Chain of Responsibility, Factory, Compositor, Null Object, Strategy)
 * unit tests (PHPUnit/PHPSpec) and integration tests (Postman/newman)
-* frontend: AngularJS, Angular6, Bootstrap, jQuery
-* Building German workers for parallel and asynchronous task processing
+* frontend: AngularJS, Angular6, Bootstrap, jQuery, React.js, SCSS
 * Optimization of generating reports in terms of used RAM (from more than 512 MB to max 90 MB)
 
 
@@ -76,6 +75,17 @@ Key tasks:
 * Using Sphinx Search to build search engines on the websites
 * Integration with web services (eg. vimeo, mail chimp, payment system)
 
+## Frelancer 04.2009 – 05.2011
+_Webdeveloper_
+
+Key tasks:
+
+* Creating website (HTML, CSS, JavaScript, PHP/ZF1)
+* Creating jQuery plugins and JavaScript scripts
+* SSO between portal and PHP forum
+* Migrating old static HTML page to CMS Joomla
+* Creating CSS/HTML for local transport company
+
 ## Open source
 
 ### SSorder
@@ -86,9 +96,13 @@ A web application created by intern. Currently develop after hours as an opensou
 * Rocket.Chat bot that responds to user commands (webhooks)
 * Integration of the npm symfony/encore package to build css/js with yii2 assets
 * Unit tests and e2e tests
+* Migrated from PHP 5 to PHP 7
 * CI/CD pipeline
 * JSON REST API (JWT Token, postman/newman tests)
 * Pair programming
+* React.js
+* Redis Pub/Sub and SSE
+* Customised Bootstrap 4
 
 ### Patches
 
@@ -110,7 +124,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [puppet-gitconfig](https://github.com/mjanser/puppet-gitconfig/pull/1)
 
-[ZF1](https://devzone.zend.com/1814/zend-framework-1110-final-released/)
+[ZF1](https://web.archive.org/web/20141013141224/https://devzone.zend.com/1814/zend-framework-1110-final-released/)
 
 ### Other projects
 
@@ -138,7 +152,7 @@ A web application created by intern. Currently develop after hours as an opensou
 * JavaScript ES6+ (very good)
 * jQuery (very good)
 * HTML/CSS/SCSS/Bootstrap (very good)
-* Angular/AngularJS (good)
+* Angular/AngularJS/React.js (good)
 * TypeScript (good)
 * MySQL (good)
 * Docker, Gitlab CI/CD, Packer (good)
