@@ -126,6 +126,8 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [ZF1](https://web.archive.org/web/20141013141224/https://devzone.zend.com/1814/zend-framework-1110-final-released/)
 
+[Faker: Lorempixel is down](https://github.com/fzaninotto/Faker/issues/1884#issuecomment-581517627)
+
 ### Other projects
 
 [yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
