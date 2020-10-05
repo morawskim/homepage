@@ -15,7 +15,29 @@ Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 Engineer (Eng), Programming and computer networks
 
 
-## Sensilabs 02.2016 – now
+## Polcode 06.2020 – now
+_Symfony FullStack Developer_
+
+Projects:
+
+* Maintaining Symfony website to help cottage owners attract renters.
+* Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
+* Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
+
+
+Key tasks:
+
+* Creating Symfony backend applications
+* Creating React.js (with TypeScript) frontend applications
+* Provisioning demo servers by ansible
+* Taking care of the code quality via TDD, DDD, and design patterns
+* Creating functional/integration tests for Symfony framework
+* Postman tests for REST API endpoints
+* Creating API documentation in OpenAPI specification
+* Creating a Docker environment for developers
+
+
+## Sensilabs 02.2016 – 05.2020
 _Developer_
 
 Projects:
