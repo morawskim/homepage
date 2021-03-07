@@ -20,7 +20,7 @@ _Symfony FullStack Developer_
 
 Projects:
 
-* Maintaining Symfony website to help cottage owners attract renters.
+* Adjusting the Shopware 6 to project goals. Creating/extending CMS components and create custom entities to meet project requirements. Modifying checkout process by add additional synchronous payment methods and additional cart processors/validators. Creating storefront plugins and extends existing ones. Optimization of generating the sitemap.
 * Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
 * Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
 
@@ -30,7 +30,7 @@ Key tasks:
 * Creating Symfony backend applications
 * Creating React.js (with TypeScript) frontend applications
 * Provisioning demo servers by ansible
-* Taking care of the code quality via TDD, DDD, and design patterns
+* Taking care of the code quality via code review, TDD, DDD, and design patterns
 * Creating functional/integration tests for Symfony framework
 * Postman tests for REST API endpoints
 * Creating API documentation in OpenAPI specification
@@ -128,6 +128,10 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[JWTRefreshTokenBundle](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
+
+[hyperia-sk/yii2-secure-headers](https://github.com/hyperia-sk/yii2-secure-headers/pull/6)
+
 [yii2-ga-measurement-protocol](https://github.com/baibaratsky/yii2-ga-measurement-protocol/pull/7)
 
 [bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput/pull/1129)
@@ -206,6 +210,9 @@ English - B1
 Reading technical documentation in English  - B2
 
 ## Certifications
+
+2020 - [Docker Certified Associate](https://credentials.docker.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
+
 2014 - [Zend Certified PHP Engineer](http://www.zend.com/en/yellow-pages/ZEND024961)
 
 2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)
