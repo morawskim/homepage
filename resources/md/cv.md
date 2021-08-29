@@ -20,6 +20,7 @@ _Symfony FullStack Developer_
 
 Projects:
 
+* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing also architecture for category attributes based on JSON Schema specification.
 * Adjusting the Shopware 6 to project goals. Creating/extending CMS components and create custom entities to meet project requirements. Modifying checkout process by add additional synchronous payment methods and additional cart processors/validators. Creating storefront plugins and extends existing ones. Optimization of generating the sitemap.
 * Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
 * Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
@@ -29,12 +30,15 @@ Key tasks:
 
 * Creating Symfony backend applications
 * Creating React.js (with TypeScript) frontend applications
+* Integration with external REST API services
 * Provisioning demo servers by ansible
 * Taking care of the code quality via code review, TDD, DDD, and design patterns
 * Creating functional/integration tests for Symfony framework
-* Postman tests for REST API endpoints
+* Postman/Cypress tests for REST API endpoints
 * Creating API documentation in OpenAPI specification
 * Creating a Docker environment for developers
+* Gitlab CI pipeline (run all types of tests, build docker images, Continuous deployment, static analysis tools)
+* Integration with Sentry to log errors
 
 
 ## Sensilabs 02.2016 – 05.2020
