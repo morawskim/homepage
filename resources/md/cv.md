@@ -32,13 +32,14 @@ Key tasks:
 * Creating React.js (with TypeScript) frontend applications
 * Integration with external REST API services
 * Provisioning demo servers by ansible
-* Taking care of the code quality via code review, TDD, DDD, and design patterns
+* Taking care of the code quality via code review, TDD, DDD, CQRS, and design patterns
 * Creating functional/integration tests for Symfony framework
 * Postman/Cypress tests for REST API endpoints
 * Creating API documentation in OpenAPI specification
 * Creating a Docker environment for developers
 * Gitlab CI pipeline (run all types of tests, build docker images, Continuous deployment, static analysis tools)
 * Integration with Sentry to log errors
+* Preparing the environment for a performance tests in JMeter using Ansible and Terraform
 
 
 ## Sensilabs 02.2016 – 05.2020
@@ -132,7 +133,11 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[entity-exists-validation-constraint](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
+
 [JWTRefreshTokenBundle](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
+
+[openapi-cop](https://github.com/EXXETA/openapi-cop/pull/321)
 
 [hyperia-sk/yii2-secure-headers](https://github.com/hyperia-sk/yii2-secure-headers/pull/6)
 
@@ -160,6 +165,10 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Other projects
 
+[A collection of helper class for Symfony Framework](https://github.com/morawskim/sf-utils)
+
+[A collection of helper class for Yii Framework 2](https://github.com/morawskim/yii2-utils)
+
 [yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
 
 [noip client](https://github.com/morawskim/noip-client)
@@ -179,8 +188,8 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ## Technology
 
-* PHP 5/7 (very good)
-* ZF1/Yii2 (very good)
+* PHP 5/7/8 (very good)
+* ZF1/Yii2/Symfony 4 (very good)
 * JavaScript ES6+ (very good)
 * jQuery (very good)
 * HTML/CSS/SCSS/Bootstrap (very good)
@@ -189,7 +198,6 @@ A web application created by intern. Currently develop after hours as an opensou
 * MySQL (good)
 * Docker, Gitlab CI/CD, Packer (good)
 * PostgreSQL (medium)
-* Symfony 4 (medium)
 
 ## Skills
 
