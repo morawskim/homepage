@@ -20,7 +20,7 @@ _Symfony FullStack Developer_
 
 Projects:
 
-* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing also architecture for category attributes based on JSON Schema specification.
+* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing architecture for category attributes based on JSON Schema specification. Using different write and read models (MySQL, ElasticSearch, Redis).
 * Adjusting the Shopware 6 to project goals. Creating/extending CMS components and create custom entities to meet project requirements. Modifying checkout process by add additional synchronous payment methods and additional cart processors/validators. Creating storefront plugins and extends existing ones. Optimization of generating the sitemap.
 * Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
 * Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
@@ -159,7 +159,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [puppet-gitconfig](https://github.com/mjanser/puppet-gitconfig/pull/1)
 
-[ZF1](https://web.archive.org/web/20141013141224/https://devzone.zend.com/1814/zend-framework-1110-final-released/)
+[ZF1 contributor](https://web.archive.org/web/20141013141224/https://devzone.zend.com/1814/zend-framework-1110-final-released/)
 
 [Faker: Lorempixel is down](https://github.com/fzaninotto/Faker/issues/1884#issuecomment-581517627)
 
@@ -167,7 +167,11 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [A collection of helper class for Symfony Framework](https://github.com/morawskim/sf-utils)
 
+[Different images provider for Faker](https://github.com/morawskim/faker-images)
+
 [A collection of helper class for Yii Framework 2](https://github.com/morawskim/yii2-utils)
+
+[Guzzle Middleware for Xdebug](https://github.com/morawskim/guzzle-xdebug-middleware)
 
 [yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
 
@@ -179,7 +183,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [packpub-free-learning bot](https://github.com/morawskim/packpub-free-learning)
 
-[composer packages:](https://packagist.org/packages/mmo/)
+[composer packages](https://packagist.org/packages/mmo/)
 
 [vagrant boxes](https://app.vagrantup.com/morawskim)
 
@@ -189,14 +193,15 @@ A web application created by intern. Currently develop after hours as an opensou
 ## Technology
 
 * PHP 5/7/8 (very good)
-* ZF1/Yii2/Symfony 4 (very good)
+* ZF1/Yii2/Symfony 4+ (very good)
 * JavaScript ES6+ (very good)
 * jQuery (very good)
 * HTML/CSS/SCSS/Bootstrap (very good)
+* Docker, Gitlab CI/CD (very good)
 * Angular/AngularJS/React.js (good)
 * TypeScript (good)
 * MySQL (good)
-* Docker, Gitlab CI/CD, Packer (good)
+* Terraform, Ansible, Packer (good)
 * PostgreSQL (medium)
 
 ## Skills
@@ -217,9 +222,7 @@ A web application created by intern. Currently develop after hours as an opensou
 ## Languages
 Polish - native
 
-English - B1
-
-Reading technical documentation in English  - B2
+English - B2
 
 ## Certifications
 
