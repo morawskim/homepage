@@ -175,19 +175,19 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
 
-[noip client](https://github.com/morawskim/noip-client)
+[noip-client](https://github.com/morawskim/noip-client)
 
-[ovh domain](https://github.com/morawskim/ovh-domain)
+[ovh-domain](https://github.com/morawskim/ovh-domain)
 
 [mail2print](https://github.com/morawskim/mail2print)
 
 [packpub-free-learning bot](https://github.com/morawskim/packpub-free-learning)
 
-[composer packages](https://packagist.org/packages/mmo/)
+[Composer packages](https://packagist.org/packages/mmo/)
 
-[vagrant boxes](https://app.vagrantup.com/morawskim)
+[Vagrant boxes](https://app.vagrantup.com/morawskim)
 
-[docker images](https://hub.docker.com/u/morawskim)
+[Docker images](https://hub.docker.com/u/morawskim)
 
 
 ## Technology
@@ -209,13 +209,12 @@ A web application created by intern. Currently develop after hours as an opensou
 * CI/CD pipelines (GitLab CI/CD)
 * Code review
 * Creating REST/SOAP APIs, as well integration with systems via REST/SOAP protocol
-* Creating unit/integration/e2e tests
-* Creating development environments based on docker containers
-* Creating vagrant images with the development environment
-* Software configuration management via puppet
+* Creating unit/integration/e2e/performance tests
+* Creating  development/production environments (Vagrant, Docker, Packer)
+* Automation (Ansible, Terraform, in past also puppet)
 * Solving problems that affect different technologies (Java, SELinux, Linux, network)
 * Code debugging (xdebug, chrome devtools), tracing code execution and profiling
-* Clean code, Design patterns, SOLID, TDD, Refactoring
+* Clean code, Design patterns, SOLID, TDD, DDD, Refactoring
 * OWASP TOP 10
 * Git/SVN, Git-flow
 
