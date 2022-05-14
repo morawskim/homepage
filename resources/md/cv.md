@@ -258,7 +258,7 @@ English - B2
 
 2020 - [Docker Certified Associate](https://credentials.docker.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
 
-2014 - [Zend Certified PHP Engineer](http://www.zend.com/en/yellow-pages/ZEND024961)
+2014 - [Zend Certified PHP Engineer](https://www.zend-zce.com/en/yellow-pages/ZEND024961)
 
 2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)
 
