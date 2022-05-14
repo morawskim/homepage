@@ -14,8 +14,33 @@ Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 2009-2013 Szkoła Wyższa im. Pawła Włodkowica w Płocku
 Engineer (Eng), Programming and computer networks
 
+## Linker Cloud 03.2022 - now
+_Symfony FullStack Developer_
 
-## Polcode 06.2020 – now
+Main tasks:
+
+* Helping in process of upgrading from the old Symfony and PHP versions.
+* Creating a new architecture (based on the chain of responsibility pattern) to build Elasticsearch queries with integration tests for a new feature and also integrating with existing code.
+* Creating a stock report from data stored in Elasticsearch (stream architecture).
+* Creating feature to import returns from XLSX file (stream architecture)
+* Migrate an existing feature of calculating the execution date of order to a new architecture based on strategy design pattern (implementing also additional strategies).
+
+
+Main Responsibilities:
+
+* Developing/Maintaining existing applications in PHP 7.2 - 8.1 and Symfony 3.4 - 6.0
+* Creating a frontend in AngularJS.
+* Creating and maintaining REST API.
+* Code review
+* Writing clean code, DDD, writing unit/integration/functional tests.
+* Working in a containerized environment (Kubernetes).
+* Developing applications in event-driven and SOA architecture.
+
+Stack:
+
+PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS
+
+## Polcode 06.2020 – 02.2022
 _Symfony FullStack Developer_
 
 Projects:
@@ -122,14 +147,18 @@ A web application created by intern. Currently develop after hours as an opensou
 * Integration with the Rocket.Chat system (sending notifications to the channel)
 * Rocket.Chat bot that responds to user commands (webhooks)
 * Integration of the npm symfony/encore package to build css/js with yii2 assets
-* Unit tests and e2e tests
-* Migrated from PHP 5 to PHP 7
+* Unit tests, e2e tests and performance tests
+* Migrated from old PHP version
 * CI/CD pipeline
-* JSON REST API (JWT Token, postman/newman tests)
+* JSON REST API (JWT Token, Cypress/postman/newman tests)
 * Pair programming
 * React.js
-* Redis Pub/Sub and SSE
+* Redis Pub/Sub, SSE and queue
 * Customised Bootstrap 4
+* OpenAPI to describe REST API
+* Deploy based on Docker, GitLab CI/CD and Ansible
+* Checking status of third party services (diagnostic tests)
+* Integration with Sentry
 
 ### Patches
 
@@ -194,15 +223,15 @@ A web application created by intern. Currently develop after hours as an opensou
 
 * PHP 5/7/8 (very good)
 * ZF1/Yii2/Symfony 4+ (very good)
-* JavaScript ES6+ (very good)
-* jQuery (very good)
-* HTML/CSS/SCSS/Bootstrap (very good)
+* MySQL (very good)
+* HTML/CSS/SCSS/Bootstrap/jQuery (very good)
+* JavaScript ES6+, TypeScript (very good)
 * Docker, Gitlab CI/CD (very good)
 * Angular/AngularJS/React.js (good)
-* TypeScript (good)
-* MySQL (good)
-* Terraform, Ansible, Packer (good)
-* PostgreSQL (medium)
+* Terraform, Ansible, Packer, Vagrant (good)
+* Redis, ElasticSearch (good)
+* AWS/DigitalOcean
+* Sentry, New Relic, Prometheus
 
 ## Skills
 
