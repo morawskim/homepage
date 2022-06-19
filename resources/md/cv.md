@@ -24,6 +24,7 @@ Main tasks:
 * Creating a stock report from data stored in Elasticsearch (stream architecture).
 * Creating feature to import returns from XLSX file (stream architecture)
 * Migrate an existing feature of calculating the execution date of order to a new architecture based on strategy design pattern (implementing also additional strategies).
+* Auto assignment order to fulfillment site. Transforming business rules into a symfony expression and reverted process (from expresion to business rules). Based on a visitor design pattern.
 
 
 Main Responsibilities:
@@ -162,6 +163,8 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[php-ga-measurement-protocol - Fixes issue with http_build_query() on PHP 8.1](https://github.com/theiconic/php-ga-measurement-protocol/pull/103)
+
 [entity-exists-validation-constraint](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
 
 [JWTRefreshTokenBundle](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
@@ -197,6 +200,8 @@ A web application created by intern. Currently develop after hours as an opensou
 [A collection of helper class for Symfony Framework](https://github.com/morawskim/sf-utils)
 
 [Different images provider for Faker](https://github.com/morawskim/faker-images)
+
+[Command Line Tool for the Faker PHP library](https://packagist.org/packages/mmo/faker-cli)
 
 [A collection of helper class for Yii Framework 2](https://github.com/morawskim/yii2-utils)
 
@@ -260,6 +265,6 @@ English - B2
 
 2014 - [Zend Certified PHP Engineer](https://www.zend-zce.com/en/yellow-pages/ZEND024961)
 
-2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)
+2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)[Verification](https://cs.lpi.org/caf/Xamman/certification)
 
 2014 - SUSE Certified Linux Administrator  (SUSE CLA)
