@@ -25,7 +25,9 @@ Main tasks:
 * Creating feature to import returns from XLSX file (stream architecture)
 * Migrate an existing feature of calculating the execution date of order to a new architecture based on strategy design pattern (implementing also additional strategies).
 * Auto assignment order to fulfillment site. Transforming business rules into a symfony expression and reverted process (from expresion to business rules). Based on a visitor design pattern.
-
+* OAuth flow for external integrations
+* SLA dashboard - Prometheus metrics & Grafana dashboard
+* Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
 
 Main Responsibilities:
 
@@ -41,12 +43,14 @@ Stack:
 
 PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS
 
+[Tech overview #2: new solutions implemented in Q2](https://linkercloud.com/blog/news/tech-overview-2-new-solutions-implemented-in-q2)
+
 ## Polcode 06.2020 – 02.2022
 _Symfony FullStack Developer_
 
 Projects:
 
-* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing architecture for category attributes based on JSON Schema specification. Using different write and read models (MySQL, ElasticSearch, Redis).
+* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing architecture for category attributes based on JSON Schema specification. Using different write and read models (MySQL, ElasticSearch, Redis). Using context object which contains a specific configuration for current country.
 * Adjusting the Shopware 6 to project goals. Creating/extending CMS components and create custom entities to meet project requirements. Modifying checkout process by add additional synchronous payment methods and additional cart processors/validators. Creating storefront plugins and extends existing ones. Optimization of generating the sitemap.
 * Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
 * Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
@@ -163,6 +167,8 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[RequestIdBundle - Add support for Monolog3](https://github.com/chrisguitarguy/RequestIdBundle/pull/27)
+
 [php-ga-measurement-protocol - Fixes issue with http_build_query() on PHP 8.1](https://github.com/theiconic/php-ga-measurement-protocol/pull/103)
 
 [entity-exists-validation-constraint](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
@@ -258,6 +264,8 @@ Polish - native
 English - B2
 
 ## Certifications
+
+2022 - [AWS Certified Developer – Associate](https://www.credly.com/badges/f7c72d21-16ef-4336-b9c4-a998807cdf8d/public_url)
 
 2021 - [Symfony 5 Certified Developer (Advanced)](https://connect.symfony.com/profile/morawskim)
 
