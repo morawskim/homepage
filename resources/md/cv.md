@@ -269,7 +269,7 @@ English - B2
 
 2021 - [Symfony 5 Certified Developer (Advanced)](https://connect.symfony.com/profile/morawskim)
 
-2020 - [Docker Certified Associate](https://credentials.docker.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
+2020 - [Docker Certified Associate](https://certification.mirantis.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
 
 2014 - [Zend Certified PHP Engineer](https://www.zend-zce.com/en/yellow-pages/ZEND024961)
 
