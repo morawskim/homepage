@@ -28,6 +28,8 @@ Main tasks:
 * OAuth flow for external integrations
 * SLA dashboard - Prometheus metrics & Grafana dashboard
 * Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
+* Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
+* Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
 
 Main Responsibilities:
 
@@ -42,6 +44,10 @@ Main Responsibilities:
 Stack:
 
 PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS
+
+[Tech overview #4: productive end of the year](https://linkercloud.com/blog/news/tech-overview-4-productive-end-of-the-year)
+
+[Tech overview #3: another busy quarter behind us!](https://linkercloud.com/blog/news/tech-overview-3-another-busy-quarter-behind-us)
 
 [Tech overview #2: new solutions implemented in Q2](https://linkercloud.com/blog/news/tech-overview-2-new-solutions-implemented-in-q2)
 
