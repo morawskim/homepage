@@ -15,7 +15,15 @@ Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 Engineer (Eng), Programming and computer networks
 
 ## Linker Cloud 03.2022 - now
-_Symfony FullStack Developer_
+### _Go Developer_
+
+Main tasks:
+
+* Create a AWS lambda function to generate webp thumbnails after uploading images to S3 bucket
+
+* Integrate C++ SDK with Go to access DVR (start/stop video recording, fetch recorderd video, state of DVR and attached cameras)
+
+### _Symfony FullStack Developer_
 
 Main tasks:
 
@@ -30,6 +38,7 @@ Main tasks:
 * Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
 * Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
 * Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
+* Video recording during packing order.
 
 Main Responsibilities:
 
@@ -44,6 +53,8 @@ Main Responsibilities:
 Stack:
 
 PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS
+
+[Release notes](https://linkercloud.com/resources/release-notes)
 
 [Tech overview #4: productive end of the year](https://linkercloud.com/blog/news/tech-overview-4-productive-end-of-the-year)
 
@@ -172,6 +183,10 @@ A web application created by intern. Currently develop after hours as an opensou
 * Integration with Sentry
 
 ### Patches
+
+[Composer allow to autoload classes for the same prefix from multiple directories](https://github.com/g1a/composer-test-scenarios/pull/21)
+
+[Unable to connect to redis that listening on IPv6 interface](https://github.com/joeferner/redis-commander/issues/512)
 
 [RequestIdBundle - Add support for Monolog3](https://github.com/chrisguitarguy/RequestIdBundle/pull/27)
 
