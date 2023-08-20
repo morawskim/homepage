@@ -15,15 +15,25 @@ Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 Engineer (Eng), Programming and computer networks
 
 ## Linker Cloud 03.2022 - now
-### _Go Developer_
+
+Linker Cloud offers ecommerce fulfilment and order management system (OMS Software).
+This single solution gives access to tons of integrations, features, and logistics facilitations.
+We assist eCommerce, distributors, and 3PL warehouses with implementing the fastest and most cost-effective way to ship products to customers using a single tool – an Order Management System.
+Our cloud-based software for managing the entire post-sales process handles 500,000 orders in Europe. Our goal is to make 1-day delivery a reality for all consumers.
+
+**_Go Developer_**
 
 Main tasks:
 
 * Create a AWS lambda function to generate webp thumbnails after uploading images to S3 bucket
 
-* Integrate C++ SDK with Go to access DVR (start/stop video recording, fetch recorderd video, state of DVR and attached cameras)
+* Integrate C++ SDK with Go via cgo for video recording process
 
-### _Symfony FullStack Developer_
+* Create K8s resources
+
+* Distributed tracking requests, performance benchmarks, structured logging
+
+**_Symfony FullStack Developer_**
 
 Main tasks:
 
@@ -38,7 +48,7 @@ Main tasks:
 * Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
 * Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
 * Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
-* Video recording during packing order.
+* Video recording during packing order
 
 Main Responsibilities:
 
@@ -49,10 +59,11 @@ Main Responsibilities:
 * Writing clean code, DDD, writing unit/integration/functional tests.
 * Working in a containerized environment (Kubernetes).
 * Developing applications in event-driven and SOA architecture.
+* Software Design and Architecture
 
 Stack:
 
-PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS
+PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS, Go, AWS
 
 [Release notes](https://linkercloud.com/resources/release-notes)
 
@@ -285,6 +296,8 @@ Polish - native
 English - B2
 
 ## Certifications
+
+2023 - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/e92a464e-c920-44b3-b055-9d02fbcd8009)
 
 2022 - [AWS Certified Developer – Associate](https://www.credly.com/badges/f7c72d21-16ef-4336-b9c4-a998807cdf8d/public_url)
 
