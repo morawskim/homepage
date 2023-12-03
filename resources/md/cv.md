@@ -14,12 +14,48 @@ Wiki: [morawskim.github.io](https://morawskim.github.io/#!index.md)
 2009-2013 Szkoła Wyższa im. Pawła Włodkowica w Płocku
 Engineer (Eng), Programming and computer networks
 
+### Certifications
+
+2023 - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/e92a464e-c920-44b3-b055-9d02fbcd8009)
+
+2022 - [AWS Certified Developer – Associate](https://www.credly.com/badges/f7c72d21-16ef-4336-b9c4-a998807cdf8d/public_url)
+
+2021 - [Symfony 5 Certified Developer (Advanced)](https://connect.symfony.com/profile/morawskim)
+
+2020 - [Docker Certified Associate](https://certification.mirantis.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
+
+2014 - Zend Certified PHP Engineer
+
+2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)[Verification](https://cs.lpi.org/caf/Xamman/certification)
+
+2014 - SUSE Certified Linux Administrator  (SUSE CLA)
+
+### Languages
+Polish - native
+
+English - B2
+
 ## Linker Cloud 03.2022 - now
 
 Linker Cloud offers ecommerce fulfilment and order management system (OMS Software).
 This single solution gives access to tons of integrations, features, and logistics facilitations.
 We assist eCommerce, distributors, and 3PL warehouses with implementing the fastest and most cost-effective way to ship products to customers using a single tool – an Order Management System.
-Our cloud-based software for managing the entire post-sales process handles 500,000 orders in Europe. Our goal is to make 1-day delivery a reality for all consumers.
+Our cloud-based software for managing the entire post-sales process handles 800,000 orders. Our goal is to make 1-day delivery a reality for all consumers.
+
+Main Responsibilities:
+
+* Developing/Maintaining existing applications in PHP 7.4 - 8.1 and Symfony 3.4 - 6.0
+* Creating a frontend in AngularJS.
+* Creating and maintaining REST API.
+* Code review
+* Writing clean code, DDD, writing unit/integration/functional tests.
+* Working in a containerized environment (Kubernetes).
+* Developing applications in event-driven and SOA architecture.
+* Software Design and Architecture
+
+Stack:
+
+PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS, Go, AWS
 
 **_Go Developer_**
 
@@ -49,21 +85,6 @@ Main tasks:
 * Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
 * Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
 * Video recording during packing order
-
-Main Responsibilities:
-
-* Developing/Maintaining existing applications in PHP 7.2 - 8.1 and Symfony 3.4 - 6.0
-* Creating a frontend in AngularJS.
-* Creating and maintaining REST API.
-* Code review
-* Writing clean code, DDD, writing unit/integration/functional tests.
-* Working in a containerized environment (Kubernetes).
-* Developing applications in event-driven and SOA architecture.
-* Software Design and Architecture
-
-Stack:
-
-PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS, Go, AWS
 
 [Release notes](https://linkercloud.com/resources/release-notes)
 
@@ -195,9 +216,15 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[flagception-bundle - Add "void" as return type, which fix deprecation notices](https://github.com/playox/flagception-bundle/pull/15)
+
+[flagception-database-activator - Fix support for PHP 7.1](https://github.com/playox/flagception-database-activator/pull/1)
+
 [Composer allow to autoload classes for the same prefix from multiple directories](https://github.com/g1a/composer-test-scenarios/pull/21)
 
 [Unable to connect to redis that listening on IPv6 interface](https://github.com/joeferner/redis-commander/issues/512)
+
+[symfony/flex - Real composer scripts](https://github.com/symfony/flex/pull/930)
 
 [RequestIdBundle - Add support for Monolog3](https://github.com/chrisguitarguy/RequestIdBundle/pull/27)
 
@@ -205,21 +232,21 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [entity-exists-validation-constraint](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
 
-[JWTRefreshTokenBundle](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
+[JWTRefreshTokenBundle - Fix service configuration](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
 
-[openapi-cop](https://github.com/EXXETA/openapi-cop/pull/321)
+[openapi-cop - Target URL matching regex should allow URI valid characters](https://github.com/EXXETA/openapi-cop/pull/321)
 
 [hyperia-sk/yii2-secure-headers](https://github.com/hyperia-sk/yii2-secure-headers/pull/6)
 
 [yii2-ga-measurement-protocol](https://github.com/baibaratsky/yii2-ga-measurement-protocol/pull/7)
 
-[bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput/pull/1129)
+[bootstrap-fileinput - Sorting / reorder not working on Chrome](https://github.com/kartik-v/bootstrap-fileinput/pull/1129)
 
-[climate](https://github.com/adtac/climate/pull/28)
+[climate - Improve bash completions](https://github.com/adtac/climate/pull/28)
 
-[faker-cli](https://github.com/bit3archive/faker-cli/pull/8)
+[faker-cli - Update dependencies](https://github.com/bit3archive/faker-cli/pull/8)
 
-[faker-cli](https://github.com/bit3archive/faker-cli/pull/9)
+[faker-cli - Add bash completion](https://github.com/bit3archive/faker-cli/pull/9)
 
 [zurb-foundation5-multiselect](https://github.com/icyz/zurb-foundation5-multiselect/pull/26)
 
@@ -289,24 +316,6 @@ A web application created by intern. Currently develop after hours as an opensou
 * Clean code, Design patterns, SOLID, TDD, DDD, Refactoring
 * OWASP TOP 10
 * Git/SVN, Git-flow
-
-## Languages
-Polish - native
-
-English - B2
-
-## Certifications
-
-2023 - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/e92a464e-c920-44b3-b055-9d02fbcd8009)
-
-2022 - [AWS Certified Developer – Associate](https://www.credly.com/badges/f7c72d21-16ef-4336-b9c4-a998807cdf8d/public_url)
-
-2021 - [Symfony 5 Certified Developer (Advanced)](https://connect.symfony.com/profile/morawskim)
-
-2020 - [Docker Certified Associate](https://certification.mirantis.com/466d5b0f-79e5-4117-851e-a0a13f780d49)
-
-2014 - [Zend Certified PHP Engineer](https://www.zend-zce.com/en/yellow-pages/ZEND024961)
-
-2014 - LPIC-1 (LPI ID: LPI000323199, Verification Code: fnv6akdywk)[Verification](https://cs.lpi.org/caf/Xamman/certification)
-
-2014 - SUSE Certified Linux Administrator  (SUSE CLA)
+* Software Design and Architecture
+* Improving performance and find bottleneck
+* Update legacy system
