@@ -44,7 +44,7 @@ Our cloud-based software for managing the entire post-sales process handles 800,
 
 Main Responsibilities:
 
-* Developing/Maintaining existing applications in PHP 7.4 - 8.1 and Symfony 3.4 - 6.0
+* Developing/Maintaining existing applications in PHP 7.4 - 8.1, Symfony 3.4 - 6.0 and Go
 * Creating a frontend in AngularJS.
 * Creating and maintaining REST API.
 * Code review
@@ -84,7 +84,9 @@ Main tasks:
 * Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
 * Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
 * Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
-* Video recording during packing order
+* Video recording during packing order, store scan events as tags and display them in video
+* Creating a new process to update stocks in batch which will support many external system, which has different API and requires different set of data. Dry-run mode to display expected stocks.
+* Implement new packing view for client (up to 100K orders per month) with support for sorting and restore packing process with all state.
 
 [Release notes](https://linkercloud.com/resources/release-notes)
 
@@ -216,6 +218,10 @@ A web application created by intern. Currently develop after hours as an opensou
 
 ### Patches
 
+[RabbitMqBundle - Add support for Symfony 7](https://github.com/php-amqplib/RabbitMqBundle/pull/721)
+
+[Support Symfony 7](https://github.com/broadway/broadway-bundle/pull/105)
+
 [flagception-bundle - Add "void" as return type, which fix deprecation notices](https://github.com/playox/flagception-bundle/pull/15)
 
 [flagception-database-activator - Fix support for PHP 7.1](https://github.com/playox/flagception-database-activator/pull/1)
@@ -230,7 +236,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [php-ga-measurement-protocol - Fixes issue with http_build_query() on PHP 8.1](https://github.com/theiconic/php-ga-measurement-protocol/pull/103)
 
-[entity-exists-validation-constraint](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
+[Ability to check entity state, not only whether exists](https://github.com/Happyr/entity-exists-validation-constraint/pull/9)
 
 [JWTRefreshTokenBundle - Fix service configuration](https://github.com/markitosgv/JWTRefreshTokenBundle/pull/224)
 
@@ -248,7 +254,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [faker-cli - Add bash completion](https://github.com/bit3archive/faker-cli/pull/9)
 
-[zurb-foundation5-multiselect](https://github.com/icyz/zurb-foundation5-multiselect/pull/26)
+[multiselect - call refreshPlaceholder during init phase](https://github.com/icyz/zurb-foundation5-multiselect/pull/26)
 
 [simple-file-manager](https://github.com/jcampbell1/simple-file-manager/pull/29)
 
