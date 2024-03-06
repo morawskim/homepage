@@ -35,27 +35,35 @@ Polish - native
 
 English - B2
 
+## Current technology stack
+
+PHP, Go,
+Symfony, PHPUnit, Behat, Rector, PHPStan,
+MySQL, MongoDB, Redis, Elasticsearch,
+JavaScript ES6+, TypeScript, SCSS,
+AWS, Docker, Kubernetes, Gitlab CI/CD, Terraform, Ansible
+Sentry, Prometheus, Postman, Cypress
+
+## Skills
+
+* Developing, maintaining and design backend systems in PHP and Go for more than 10 years
+* Solving problems that affect different technologies (Java, SELinux, Linux, network)
+* Creating scalable and reliable applications (stateless, event driven architecture, load balancing, sharding)
+* DevOps (IaC, pipelines, containers, monitoring, AWS, configure servers)
+* Working with systems up to 500K lines of code, databases ~3TB (every day ~2 millions new records)
+* Creating stream architecture (Reduce memory consuming to constant value of ~60MB)
+* Finding bottleneck and improve performance (eg. Optimizing SQL/NoSQL queries by ~86%, reducing processing time by ~93% (batch update))
+* Clean code, Design patterns, SOLID, TDD, DDD, Refactoring
+* Updating legacy system
+* Developing applications in event-driven and SOA architecture.
+* Resolving issues with concurrency
+
 ## Linker Cloud 03.2022 - now
 
 Linker Cloud offers ecommerce fulfilment and order management system (OMS Software).
 This single solution gives access to tons of integrations, features, and logistics facilitations.
 We assist eCommerce, distributors, and 3PL warehouses with implementing the fastest and most cost-effective way to ship products to customers using a single tool – an Order Management System.
 Our cloud-based software for managing the entire post-sales process handles 800,000 orders. Our goal is to make 1-day delivery a reality for all consumers.
-
-Main Responsibilities:
-
-* Developing/Maintaining existing applications in PHP 7.4 - 8.1, Symfony 3.4 - 6.0 and Go
-* Creating a frontend in AngularJS.
-* Creating and maintaining REST API.
-* Code review
-* Writing clean code, DDD, writing unit/integration/functional tests.
-* Working in a containerized environment (Kubernetes).
-* Developing applications in event-driven and SOA architecture.
-* Software Design and Architecture
-
-Stack:
-
-PHP, Symfony, PHPUnit, Behat, Kubernetes, Elasticsearch, static analysis tools, AngularJS, Go, AWS
 
 **_Go Developer_**
 
@@ -65,28 +73,20 @@ Main tasks:
 
 * Integrate C++ SDK with Go via cgo for video recording process
 
-* Create K8s resources
-
-* Distributed tracking requests, performance benchmarks, structured logging
+* Distributed tracking requests, performance benchmarks, structured logging, Kubernetes deployments
 
 **_Symfony FullStack Developer_**
 
 Main tasks:
 
-* Helping in process of upgrading from the old Symfony and PHP versions.
 * Creating a new architecture (based on the chain of responsibility pattern) to build Elasticsearch queries with integration tests for a new feature and also integrating with existing code.
-* Creating a stock report from data stored in Elasticsearch (stream architecture).
-* Creating feature to import returns from XLSX file (stream architecture)
 * Migrate an existing feature of calculating the execution date of order to a new architecture based on strategy design pattern (implementing also additional strategies).
 * Auto assignment order to fulfillment site. Transforming business rules into a symfony expression and reverted process (from expresion to business rules). Based on a visitor design pattern.
+* Creating new features (reports, imports) based on streaming architecture
 * OAuth flow for external integrations
 * SLA dashboard - Prometheus metrics & Grafana dashboard
 * Transformer (pipeline pattern) to adjust old configuration for formly (used in Angular.js) to a new configuration for Angular12+
-* Increase resilience of system through optimization of queries (99,5% of queries to fetch orders fulfill SLO target, time reduced about 86%), reducing memory usage and configuration for exponential backoff and timeouts
-* Reducing debugging time/analysis through improving logging system and creating handy tools to check requests/responses to external systems
 * Video recording during packing order, store scan events as tags and display them in video
-* Creating a new process to update stocks in batch which will support many external system, which has different API and requires different set of data. Dry-run mode to display expected stocks.
-* Implement new packing view for client (up to 100K orders per month) with support for sorting and restore packing process with all state.
 
 [Release notes](https://linkercloud.com/resources/release-notes)
 
@@ -101,27 +101,10 @@ _Symfony FullStack Developer_
 
 Projects:
 
-* Creating a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing architecture for category attributes based on JSON Schema specification. Using different write and read models (MySQL, ElasticSearch, Redis). Using context object which contains a specific configuration for current country.
+* Design a REST API backend application (portal with classified advertisements), with support for different countries (currencies, offer attributes, payment methods). Monolith architecture, but with clearly defined modules and infrastructure layer. Developing architecture for category attributes based on JSON Schema specification. Using different write and read models (MySQL, ElasticSearch, Redis). Using context object which contains a specific configuration for current country.
 * Adjusting the Shopware 6 to project goals. Creating/extending CMS components and create custom entities to meet project requirements. Modifying checkout process by add additional synchronous payment methods and additional cart processors/validators. Creating storefront plugins and extends existing ones. Optimization of generating the sitemap.
 * Creating SPA in React.js + TypeScript to upload receipts and receive a refund for shoppings. Responsive application with a focus on mobile users. Basic layout created on modified Boostrap SCSS. Jest and React Testing Library for unit testing.
 * Creating Symfony backend application to manage shipments (~5K per month). Importing data from an old application and sync data via webhooks. Creating business logic based on DDD (value object, factories, aggregates etc.). Using async processing to generate and send data to external systems. REST API for internal applications.
-
-
-Key tasks:
-
-* Creating Symfony backend applications
-* Creating React.js (with TypeScript) frontend applications
-* Integration with external REST API services
-* Provisioning demo servers by ansible
-* Taking care of the code quality via code review, TDD, DDD, CQRS, and design patterns
-* Creating functional/integration tests for Symfony framework
-* Postman/Cypress tests for REST API endpoints
-* Creating API documentation in OpenAPI specification
-* Creating a Docker environment for developers
-* Gitlab CI pipeline (run all types of tests, build docker images, Continuous deployment, static analysis tools)
-* Integration with Sentry to log errors
-* Preparing the environment for a performance tests in JMeter using Ansible and Terraform
-
 
 ## Sensilabs 02.2016 – 05.2020
 _Developer_
@@ -136,21 +119,6 @@ Projects:
 * Online/offline working application for storing various scientific data, embedded synchronization module for syncing nodes. Highly flexible data structure, content types. Includes visual representation of relations
 * Frontend and backend services to manage and coordinate online booking operations for Poland’s taxi services
 
-Key tasks:
-
-* Working with databases up to 2 600 GB (PostgreSQL). Every day up to 2 millions new records.
-* Optimization of SQL queries (PostgreSQL/MySQL) up to 80%
-* Creating SQL (PostgreSQL/MySQL) queries and presenting data in the form of a report
-* Work on projects in the Scrum methodology. Cooperation with teams (4 - 10 people)
-* Maintaining legacy systems - adding new features and fixing existings bugs
-* Designing new architecture or improve existing.
-* Work with systems with up to 500 000 lines of code (up to 1,8 million with external libraries)
-* Applying design patterns (Builder, Chain of Responsibility, Factory, Compositor, Null Object, Strategy)
-* unit tests (PHPUnit/PHPSpec) and integration tests (Postman/newman)
-* frontend: AngularJS, Angular6, Bootstrap, jQuery, React.js, SCSS
-* Optimization of generating reports in terms of used RAM (from more than 512 MB to max 90 MB)
-
-
 ## eo Networks 07.2012 – 01.2016
 _Developer_
 
@@ -163,14 +131,10 @@ Projects:
 
 Key tasks:
 
-* Developing a flexible (generalized) calculator architecture for different types of products
+* Design a flexible (generalized) calculator architecture for different types of products
 * Customization the LimeSurvey survey system to the client's needs
 * Co-creating a SPA application using the ExtJS framework
-* Integration with external system (SOAP and REST)
-* AngularJS, jQuery and Bootstrap
-* Finding performance bottlenecks and optimizing CMS Drupal
 * Integration with Active Directory / OpenLDAP
-* Maintenance and developing software in ZF1 and Yii2
 
 ## Autentika 06.2011 – 03.2012
 _Developer PHP_
@@ -215,6 +179,18 @@ A web application created by intern. Currently develop after hours as an opensou
 * Deploy based on Docker, GitLab CI/CD and Ansible
 * Checking status of third party services (diagnostic tests)
 * Integration with Sentry
+
+### RequestCollector
+
+[The RequestCollector](https://github.com/morawskim/request-collector) is library to collect the request/response sent via Symfony HttpClient or Guzzle.
+
+The idea to create this library was resolve many issues with external integrations due to missing data during tests, incomplete/different configuration between sandbox and production system or difficulties to test some scenarios. The goal of this library is to help debugging those integrations even on production environments. Each sent request and response can be logged and sanitized from private/personal data.
+
+### PHP Profiler
+
+[php-profiler](https://github.com/morawskim/php-profiler-monorepo) is split into two packages. One package php-profiler is used to profile PHP code and does not include any external dependencies and support legacy PHP versions (7.2+).
+
+The other package php-profiler-cli is used to analyse profiler data created by php-profiler package. Because analyse process does not run on production environment this library requires external dependencies and might require modern PHP version.
 
 ### Patches
 
@@ -274,11 +250,7 @@ A web application created by intern. Currently develop after hours as an opensou
 
 [Command Line Tool for the Faker PHP library](https://packagist.org/packages/mmo/faker-cli)
 
-[A collection of helper class for Yii Framework 2](https://github.com/morawskim/yii2-utils)
-
 [Guzzle Middleware for Xdebug](https://github.com/morawskim/guzzle-xdebug-middleware)
-
-[yii2-tracehttp](https://github.com/morawskim/yii2-tracehttp)
 
 [noip-client](https://github.com/morawskim/noip-client)
 
@@ -293,35 +265,3 @@ A web application created by intern. Currently develop after hours as an opensou
 [Vagrant boxes](https://app.vagrantup.com/morawskim)
 
 [Docker images](https://hub.docker.com/u/morawskim)
-
-
-## Technology
-
-* PHP 5/7/8 (very good)
-* ZF1/Yii2/Symfony 4+ (very good)
-* MySQL (very good)
-* HTML/CSS/SCSS/Bootstrap/jQuery (very good)
-* JavaScript ES6+, TypeScript (very good)
-* Docker, Gitlab CI/CD (very good)
-* Angular/AngularJS/React.js (good)
-* Terraform, Ansible, Packer, Vagrant (good)
-* Redis, ElasticSearch (good)
-* AWS/DigitalOcean
-* Sentry, New Relic, Prometheus
-
-## Skills
-
-* CI/CD pipelines (GitLab CI/CD)
-* Code review
-* Creating REST/SOAP APIs, as well integration with systems via REST/SOAP protocol
-* Creating unit/integration/e2e/performance tests
-* Creating  development/production environments (Vagrant, Docker, Packer)
-* Automation (Ansible, Terraform, in past also puppet)
-* Solving problems that affect different technologies (Java, SELinux, Linux, network)
-* Code debugging (xdebug, chrome devtools), tracing code execution and profiling
-* Clean code, Design patterns, SOLID, TDD, DDD, Refactoring
-* OWASP TOP 10
-* Git/SVN, Git-flow
-* Software Design and Architecture
-* Improving performance and find bottleneck
-* Update legacy system
