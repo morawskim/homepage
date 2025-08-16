@@ -178,14 +178,17 @@
     </p>
 
     <ul class="list">
-        <li>Implement new mass actions to manage orders</li>
-        <li>Creating dedicated tool to find leads based on public information from BDO, which maintains a register of companies that generate, transport or process wastes.</li>
-        <li>Improve time to fetch billing data <span class="font-bold">up to 95%</span></li>
-        <li>DevOps (Linux, Docker, RPM/DEB packages)</li>
-        <li><span class="font-bold">Reduce operational time</span> for customer orders via creating dedicated order type and flow</li>
+      <li>Optimize waste collection and drop-off routes to <span class="font-bold">improve efficiency and reduce operational costs</span></li>
+      <li>Implemente a new algorithm for proportional distribution of masses on KPO cards after waste weighing (improving accuracy and compliance with reporting requirements)</li>
+      <li>Introduce server configuration management, <span class="font-bold">monitoring servers and applications</span>, CI/CD</li>
+      <li>Implement end-to-end (E2E) testing using Cypress</li>
+      <li>Creating dedicated tool to find leads based on public information from BDO, which maintains a register of companies that generate, transport or process wastes.</li>
+      <!--<li>Improve time to fetch billing data <span class="font-bold">up to 95%</span></li> -->
+      <li>Implemented saved filters functionality, enabling storage and handling of very long URLs with applied filters</li>
+      <li>Integrate the internal CRM system with Gmail, add support for HEIC image format, mass actions to manage orders or companies</li>
     </ul>
 
-    <div class="job-container break-before-page">
+    <div class="job-container">
         <h4 class="job-date">March 2022 - June 2024</h4>
         <h3><span class="job-title">PHP & Go Developer</span>, Linker Cloud</h3>
     </div>
@@ -214,7 +217,7 @@
         </li>
     </ul>
 
-    <div class="job-container">
+    <div class="job-container break-before-page">
         <h4 class="job-date">June 2020 - February 2022</h4>
         <h3><span class="job-title">Symfony FullStack Developer</span>, Polcode</h3>
     </div>
@@ -305,7 +308,7 @@
     </ul>-->
 
 
-    <h2 class="header-2"> Select Open source projects </h2>
+    <h2 class="header-2 break-before-page"> Select Open source projects </h2>
     <div class="grid grid-cols-2 gap-4">
         <ul class="list">
             <li><a href="https://github.com/stasiu20/ssorder">SSorder</a> is a web application created by intern.
@@ -382,11 +385,16 @@
         </ul>
     </div>
 </section>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142207583-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-142207583-1');
