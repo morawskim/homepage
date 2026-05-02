@@ -130,6 +130,17 @@
         </div>
     </div>
 
+    <h3 class="header-3">Trainings/Courses</h3>
+    <div class="columns-2">
+        <div class="flex gap-1">
+            <span class="self-start text-gray-500">2024-2026</span>
+            <span>Sekurak.Academy</span>
+        </div>
+        <div class="flex gap-1">
+            <span class="self-start text-gray-500">2025</span>
+            <span>Wazuh Expert</span>
+        </div>
+    </div>
 
     <h3 class="header-3">Languages</h3>
     <div class="">
@@ -144,14 +155,13 @@
         <li>Developing, maintaining and design backend systems in PHP and Go for <span
             class="font-bold">10+ years</span></li>
         <li><span class="font-bold">Solving problems</span> (Java, SELinux, Linux, network, concurrency, SSL)</li>
-        <li><span class="font-bold">Design scalable and reliable systems</span> (stateless, load balancing, sharding)
-        </li>
-        <li>DevOps (pipelines, containers, monitoring, AWS, IaC, configure servers)</li>
-        <li>Working with systems up to <span class="font-bold">500K</span> own lines of code, databases
-            <span class="font-bold">~3TB</span>, every day <span class="font-bold">~2 millions</span> new records
+        <li><span class="font-bold">Design scalable and reliable systems</span> (stateless, load balancing, sharding)</li>
+        <li>DevOps (pipelines, containers, OpenTelemetry, AWS, IaC, configure servers, monitoring)</li>
+        <li>Working with systems up to <span class="font-bold">700K</span> own lines of code, databases
+            <span class="font-bold">~3TB</span>, every day <span class="font-bold">~2 million</span> new records
         </li>
         <li>Creating stream architecture (<span class="font-bold">memory usage below 60MB</span>)</li>
-
+        <li>Building MCP servers for AI applications</li>
         <li>Design systems using different styles like <span class="font-bold">EDA, SOA or microservices</span></li>
 
         <li>Finding bottleneck and improve performance (Optimizing SQL/NoSQL queries by <span
@@ -159,17 +169,18 @@
             <span class="font-bold">~93%</span> for 50K jobs)
         </li>
         <li>Clean code, Design patterns, SOLID, TDD, DDD, Refactoring</li>
-        <li>Updating legacy system <span class="font-bold">without downtime</span> in a few steps</li>
+        <!-- <li>Updating legacy system <span class="font-bold">without downtime</span> in a few steps</li> -->
     </ul>
 
     <h4 class="header-4">Technology stack</h4>
         PHP, Go, JavaScript, TypeScript,
-        Symfony, PHPUnit/Behat,
-        React, Angular.js, SCSS,
+        Symfony, PHPUnit, <!--Behat,-->
+        <!-- React, Angular.js, SCSS, -->
+        Vue,
         MySQL, MongoDB, Redis, Elasticsearch,
         RabbitMQ,
         AWS, Docker, Kubernetes, Gitlab CI/CD, Terraform, Ansible, Prometheus
-        <!-- SCSS,  Sentry, Postman, Cypress -->
+        <!-- Sentry, Postman, Cypress -->
 
     <h2 class="header-2">Experience</h2>
     <div class="job-container mt-0">
@@ -183,17 +194,18 @@
     </p>
 
     <ul class="list">
+      <li>Implement debounce job processing, reducing redundant task execution and optimizing resource usage</li>
       <li>Optimize waste collection and drop-off routes to <span class="font-bold">improve efficiency and reduce operational costs</span></li>
-      <li>Implemente a new algorithm for proportional distribution of masses on KPO cards after waste weighing (improving accuracy and compliance with reporting requirements)</li>
+      <!--<li>Implemente a new algorithm for proportional distribution of masses on KPO cards after waste weighing (improving accuracy and compliance with reporting requirements)</li>-->
       <li>Introduce server configuration management, <span class="font-bold">monitoring servers and applications</span>, CI/CD</li>
       <li>Implement end-to-end (E2E) testing using Cypress</li>
-      <li>Creating dedicated tool to find leads based on public information from BDO, which maintains a register of companies that generate, transport or process wastes.</li>
+      <!--<li>Creating dedicated tool to find leads based on public information from BDO, which maintains a register of companies that generate, transport or process wastes.</li>-->
       <!--<li>Improve time to fetch billing data <span class="font-bold">up to 95%</span></li> -->
-      <li>Implemented saved filters functionality, enabling storage and handling of very long URLs with applied filters</li>
-      <li>Integrate the internal CRM system with Gmail, add support for HEIC image format, mass actions to manage orders or companies</li>
+      <!--<li>Implemented saved filters functionality, enabling storage and handling of very long URLs with applied filters</li>-->
+      <li>Integrate the internal CRM system with Gmail, add support for HEIC image format, mass actions to manage orders or companies, saved filters functionality</li>
     </ul>
 
-    <div class="job-container">
+    <div class="job-container break-before-page">
         <h4 class="job-date">March 2022 - June 2024</h4>
         <h3><span class="job-title">PHP & Go Developer</span>, Linker Cloud</h3>
     </div>
@@ -222,7 +234,7 @@
         </li>
     </ul>
 
-    <div class="job-container break-before-page">
+    <div class="job-container">
         <h4 class="job-date">June 2020 - February 2022</h4>
         <h3><span class="job-title">Symfony FullStack Developer</span>, Polcode</h3>
     </div>
@@ -313,17 +325,21 @@
     </ul>-->
 
 
-    <h2 class="header-2 break-before-page"> Select Open source projects </h2>
+    <h2 class="header-2"> Select Open source projects </h2>
     <div class="grid grid-cols-2 gap-4">
         <ul class="list">
-            <li><a href="https://github.com/stasiu20/ssorder">SSorder</a> is a web application created by intern.
-                Currently develop after hours as an opensource project. It is used to order and settle meals for
-                employees. "Sandbox" for introducing new technological solutions.
-            </li>
+<!--            <li><a href="https://github.com/stasiu20/ssorder">SSorder</a> is a web application created by intern.-->
+<!--                Currently develop after hours as an opensource project. It is used to order and settle meals for-->
+<!--                employees. "Sandbox" for introducing new technological solutions.-->
+<!--            </li>-->
 
             <li><a href="https://github.com/morawskim/request-collector">The RequestCollector</a> is library to
                 collect
                 the request/response sent via Symfony HttpClient or Guzzle with support for sanitized from private/personal data.
+            </li>
+
+            <li><a href="https://github.com/morawskim/sf-utils">sf-utils</a> is library with a collection of helper
+                class for Symfony Framework.
             </li>
         </ul>
         <ul class="list">
@@ -332,10 +348,6 @@
             </li>
             <li><a href="https://github.com/morawskim/provision-dev-servers">Homelab</a> contains infrastructure as
                 code.
-            </li>
-
-            <li><a href="https://github.com/morawskim/sf-utils">sf-utils</a> is library with a collection of helper
-                class for Symfony Framework.
             </li>
 
             <li><a href="https://github.com/morawskim/faker-images">faker-images</a> - different images provider for
@@ -347,47 +359,44 @@
     <h3 class="header-3">Select Patches</h3>
     <div class="grid grid-cols-2 gap-4">
         <ul class="list">
+            <li><a href="https://github.com/prometheus/mysqld_exporter/pull/1005">prometheus/mysqld_exporter - fix authentication failure when the password contains the $ symbol</a></li>
+
             <li><a href="https://github.com/jolicode/JoliNotif/pull/100">New notifer for Linux which use
                 libnotify and PHP-FFI</a></li>
 
-            <li><a href="https://github.com/dunglas/frankenphp/issues/201">go panic when using mercure</a></li>
-
-
-            <!--<li><a href="https://github.com/php-amqplib/RabbitMqBundle/pull/721">RabbitMqBundle - Add support for
-                Symfony 7</a></li>-->
-
-            <!--<li><a href="https://github.com/g1a/composer-test-scenarios/pull/21">Composer allow to autoload classes for
-                the same prefix from multiple directories</a></li>-->
+<!--<li><a href="https://github.com/dunglas/frankenphp/issues/201">go panic when using mercure</a></li>-->
+<!--<li><a href="https://github.com/php-amqplib/RabbitMqBundle/pull/721">RabbitMqBundle - Add support for Symfony 7</a></li>-->
+<!--<li><a href="https://github.com/g1a/composer-test-scenarios/pull/21">Composer allow to autoload classes for the same prefix from multiple directories</a></li>-->
 
             <li><a href="https://github.com/joeferner/redis-commander/issues/512">Unable to connect to redis that
                 listening on IPv6 interface</a></li>
 
             <li><a href="https://github.com/symfony/flex/pull/930">symfony/flex - Real composer scripts</a></li>
 
-        <li><a
+            <li><a
                 href="https://web.archive.org/web/20141013141224/https://devzone.zend.com/1814/zend-framework-1110-final-released/">ZF1
                 contributor</a></li>
 
         </ul>
         <ul class="list">
-           <!-- <li><a href="https://github.com/Happyr/entity-exists-validation-constraint/pull/9">Ability to check entity
-                state, not only whether exists</a></li>-->
-
-
+            <!--<li><a href="https://github.com/Happyr/entity-exists-validation-constraint/pull/9">Ability to check entity state, not only whether exists</a></li>-->
+            <li><a href="https://github.com/dunglas/frankenphp/issues/201">go panic when using mercure</a></li>
             <li><a href="https://github.com/reugn/go-quartz/pull/66">go-quartz - A LoggerAdapter interface for integration with other logging packages</a></li>
+            <li><a href="https://github.com/markitosgv/JWTRefreshTokenBundle/pull/199">JWTRefreshTokenBundle - Support for refresh token in cookie</a></li>
 
-            <li><a href="https://github.com/markitosgv/JWTRefreshTokenBundle/pull/199">JWTRefreshTokenBundle - Support
-                for refresh token in cookie</a></li>
+            <!-- <li><a href="https://github.com/Happyr/entity-exists-validation-constraint/pull/9">Ability to check entity
+               state, not only whether exists</a></li>-->
 
           <!--  <li><a href="https://github.com/kartik-v/bootstrap-fileinput/pull/1129">bootstrap-fileinput - Sorting /
                 reorder not working on Chrome</a></li>-->
-
-
 
             <li><a
                 href="https://github.com/search?q=author%3Amorawskim+type%3Apr+-org%3Amorawskim++-org%3Astasiu20&type=pullrequests&s=created&o=desc">And
                 many others</a></li>
         </ul>
+    </div>
+    <div style="display: none;" class="footer">
+        I hereby consent to my personal data being processed by [company name] for the purpose of considering my application for the vacancy advertised.
     </div>
 </section>
 
